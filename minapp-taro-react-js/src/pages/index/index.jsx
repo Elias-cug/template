@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import { View, Text } from '@tarojs/components'
+import { View, Text, Button } from '@tarojs/components'
 import './index.less'
 
 export default class Index extends Component {
@@ -14,10 +14,15 @@ export default class Index extends Component {
 
   componentDidHide () { }
 
+  handleOnClick () {
+    console.log('object');
+  }
+
   render () {
     return (
       <View className='index'>
         <Text>Hello world!</Text>
+        <Button>zabuxing </Button>
       </View>
     )
   }

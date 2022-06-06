@@ -1,4 +1,5 @@
 import { Component } from 'react'
+// 全局样式
 import './app.less'
 
 class App extends Component {
